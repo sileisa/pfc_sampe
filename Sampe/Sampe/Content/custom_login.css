@@ -1,0 +1,58 @@
+
+html,
+body {
+	background-color: #EE8600;
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+a{
+	color:grey;
+}
+#icon{	
+	align-content: center;
+}
+#cardTitle{
+	color: black;
+}
+#logo{
+	width:280px;
+
+}
+#centro{
+	background-color: white;
+
+
+}
+.page-footer{
+	 bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+	background-color: #EE8600;	
+}
+.btn{
+	background-color: #EE8600;	
+}
+.card{
+	 margin: auto;
+	 width: 200px;
+	 height: 200px; 
+}
+.card-title{
+	font-family: 'Quicksand', sans-serif;
+}
+.card-image{
+	width: 50px;
+
+}

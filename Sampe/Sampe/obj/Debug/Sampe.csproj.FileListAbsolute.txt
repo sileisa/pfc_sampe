@@ -1,0 +1,249 @@
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\ApplicationInsights.config
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Sampe.dll.config
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Sampe.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Sampe.pdb
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Antlr3.Runtime.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.Agent.Intercept.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.DependencyCollector.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.Web.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.WindowsServer.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.ApplicationInsights.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.Web.Infrastructure.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Newtonsoft.Json.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.Helpers.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.Mvc.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.Optimization.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.Razor.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.WebPages.Deployment.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.WebPages.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.WebPages.Razor.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\WebGrease.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.Helpers.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.Mvc.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.Optimization.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.Razor.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.WebPages.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.WebPages.Deployment.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\System.Web.WebPages.Razor.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Antlr3.Runtime.pdb
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Newtonsoft.Json.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.ApplicationInsights.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.DependencyCollector.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.WindowsServer.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\Microsoft.AI.Web.xml
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\pt-br\System.Web.Helpers.resources.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\pt-br\System.Web.Mvc.resources.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\pt-br\System.Web.Optimization.resources.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\pt-br\System.Web.Razor.resources.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\pt-br\System.Web.WebPages.resources.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\obj\Debug\Sampe.csprojResolveAssemblyReference.cache
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\obj\Debug\Sampe.csproj.CoreCompileInputs.cache
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\obj\Debug\Sampe.dll
+C:\A SILEISA\SENAI\PFC\Sampe\Sampe\obj\Debug\Sampe.pdb
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\ApplicationInsights.config
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Sampe.dll.config
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Sampe.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Sampe.pdb
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\netstandard.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.AppContext.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Collections.Concurrent.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Collections.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Collections.NonGeneric.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Collections.Specialized.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.ComponentModel.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.ComponentModel.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Console.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Data.Common.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.Contracts.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.Debug.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.Process.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.Tools.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.Tracing.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Drawing.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Dynamic.Runtime.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Globalization.Calendars.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Globalization.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Globalization.Extensions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.Compression.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.FileSystem.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.IsolatedStorage.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.Pipes.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Linq.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Linq.Expressions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Linq.Parallel.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Linq.Queryable.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.Http.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.NameResolution.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.NetworkInformation.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.Ping.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.Requests.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.Security.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.Sockets.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.WebSockets.Client.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Net.WebSockets.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.ObjectModel.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Reflection.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Reflection.Extensions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Reflection.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Resources.Reader.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Resources.ResourceManager.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Resources.Writer.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.Extensions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.Handles.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.InteropServices.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.Numerics.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.Claims.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.Principal.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.SecureString.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Text.Encoding.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Text.RegularExpressions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Threading.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Threading.Overlapped.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Threading.Tasks.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Threading.Thread.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Threading.ThreadPool.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Threading.Timer.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.ValueTuple.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Xml.ReaderWriter.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Xml.XDocument.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Xml.XmlDocument.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Xml.XmlSerializer.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Xml.XPath.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Antlr3.Runtime.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\EntityFramework.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\EntityFramework.SqlServer.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.Web.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Options.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\MySql.Data.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Newtonsoft.Json.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Remotion.Linq.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Collections.Immutable.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.ComponentModel.Annotations.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Interactive.Async.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.Helpers.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.Mvc.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.Optimization.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.Razor.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.WebPages.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\WebGrease.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\EntityFramework.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\EntityFramework.SqlServer.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Options.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\MySql.Data.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Remotion.Linq.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Collections.Immutable.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Interactive.Async.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.Helpers.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.Mvc.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.Optimization.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.Razor.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.WebPages.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Antlr3.Runtime.pdb
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Newtonsoft.Json.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.AI.Web.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\obj\Debug\Sampe.csprojResolveAssemblyReference.cache
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\obj\Debug\Sampe.csproj.CoreCompileInputs.cache
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\obj\Debug\Sampe.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\obj\Debug\Sampe.pdb
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Devart.Data.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Devart.Data.MySql.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Devart.Data.MySql.Entity.EFCore.Design.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Devart.Data.MySql.Entity.EFCore.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.Win32.Registry.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Reflection.TypeExtensions.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.AccessControl.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\System.Security.Principal.Windows.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\Microsoft.EntityFrameworkCore.Relational.Design.xml
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\Claudia\Documents\Yla\PFC\Sampe\Sampe\bin\MySQL.Data.EntityFrameworkCore.xml
