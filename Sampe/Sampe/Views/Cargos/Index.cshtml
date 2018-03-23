@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Sampe.Cargo>
+
+@{
+    ViewBag.Title = "Cargos";
+}
+
+<div class="container ">
+    <div class="col s12 m8 l9">
+        <br />
+        <h6>Cargos</h6>
+
+        <div class="divider"></div>
+        <table class="table">
+            <tr>
+                <th>
+                    Cargo
+                </th>
+                <th>
+                    Descrição
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeCargo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DescricaoCargo)
+                </td>
+                <td>
+
+                    @Html.ActionLink("Editar", "Edit", new { id = item.CargoId }) |
+                    <!--   @Html.ActionLink("Details", "Details", new { id = item.CargoId }) |-->
+                    @Html.ActionLink("Deletar", "Delete", new { id = item.CargoId })
+                </td>
+            </tr>
+    }
+
+        </table>
+        <div class="row center-align">
+            <a class="btn " href="/Cargos/Create">Novo Cargo</a>
+        </div>
+    </div>
+</div>

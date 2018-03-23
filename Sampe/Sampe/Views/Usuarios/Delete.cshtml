@@ -1,0 +1,64 @@
+﻿@model Sampe.Usuario
+
+@{
+    ViewBag.Title = "Deletar Usuário";
+}
+
+<div class="container ">
+    <div class="col s12 m8 l9">
+        <br />
+        <h2>Deletar Usuário</h2>
+
+        <h6>Tem certeza que deseja excluir?</h6>
+        <div>
+
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    Nome
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.NomeUsuario)
+                </dd>
+
+                <dt>
+                    Sobrenome
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.SobrenomeUsuario)
+                </dd>
+
+              
+                <dt>
+                    @Html.DisplayNameFor(model => model.Hierarquia)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Hierarquia)
+                </dd>
+
+                <dt>
+                    Cargo
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Cargo.NomeCargo)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Deletar" class="btn btn-default" />
+                <a class="btn " href="/Usuarios/Index">Voltar</a>
+            </div>
+    }
+        </div>
+
+    </div>
+</div>

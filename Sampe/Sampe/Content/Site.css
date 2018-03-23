@@ -27,9 +27,12 @@ html {
     margin: auto;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
 h6 {
     text-align: left;
-    font-family: 'Quicksand', sans-serif;
     font-size: 38px;
 }
 

@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{59933606-2518-476B-91FB-CAD321F047F0}</ProjectGuid>
+    <ProjectGuid>{FA91AF83-2385-4E47-AD4A-C1C975A29C6D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -46,190 +46,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Devart.Data, Version=5.0.1878.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
-      <HintPath>..\packages\Devart.Data.5.0.1878\lib\netstandard2.0\Devart.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Devart.Data.MySql, Version=8.10.1086.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
-      <HintPath>..\packages\Devart.Data.MySql.8.10.1086\lib\netstandard2.0\Devart.Data.MySql.dll</HintPath>
-    </Reference>
-    <Reference Include="Devart.Data.MySql.Entity.EFCore, Version=8.10.1086.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
-      <HintPath>..\packages\Devart.Data.MySql.EFCore.8.10.1086\lib\netstandard2.0\Devart.Data.MySql.Entity.EFCore.dll</HintPath>
-    </Reference>
-    <Reference Include="Devart.Data.MySql.Entity.EFCore.Design, Version=8.10.1086.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
-      <HintPath>..\packages\Devart.Data.MySql.EFCore.Design.8.10.1086\lib\netstandard1.3\Devart.Data.MySql.Entity.EFCore.Design.dll</HintPath>
-    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.EntityFrameworkCore, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.EntityFrameworkCore.2.0.2\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.EntityFrameworkCore.Design, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Design.2.0.2\lib\net461\Microsoft.EntityFrameworkCore.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.EntityFrameworkCore.Relational, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Relational.2.0.2\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.EntityFrameworkCore.Relational.Design, Version=1.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Relational.Design.1.1.4\lib\net451\Microsoft.EntityFrameworkCore.Relational.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.2.0.1\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.Caching.Memory.2.0.1\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.2.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Logging, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.Logging.2.0.1\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.0.1\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Options, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.Options.2.0.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Primitives, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Win32.Registry, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Win32.Registry.4.4.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <HintPath>..\packages\MySql.Data.6.10.6\lib\net452\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data.Entity.EF6, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <HintPath>..\packages\MySql.Data.Entity.6.10.6\lib\net452\MySql.Data.Entity.EF6.dll</HintPath>
-    </Reference>
-    <Reference Include="MySQL.Data.EntityFrameworkCore, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
-    <Reference Include="Remotion.Linq, Version=2.1.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Remotion.Linq.2.1.1\lib\net45\Remotion.Linq.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.AppContext, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.AppContext.4.3.0\lib\net46\System.AppContext.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Collections.Immutable, Version=1.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Collections.Immutable.1.4.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ComponentModel.Annotations.4.4.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Composition" />
-    <Reference Include="System.ComponentModel.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ComponentModel.Primitives.4.3.0\lib\net45\System.ComponentModel.Primitives.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.ComponentModel.TypeConverter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ComponentModel.TypeConverter.4.3.0\lib\net45\System.ComponentModel.TypeConverter.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Configuration.Install" />
-    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Data" />
-    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.FileVersionInfo, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Diagnostics.FileVersionInfo.4.3.0\lib\net46\System.Diagnostics.FileVersionInfo.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Drawing.Design" />
-    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Interactive.Async, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Interactive.Async.3.1.1\lib\net46\System.Interactive.Async.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.IO.Compression.FileSystem" />
-    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Management" />
-    <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Net.Http.4.3.0\lib\net46\System.Net.Http.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Numerics" />
-    <Reference Include="System.Reflection.TypeExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Reflection.TypeExtensions.4.3.0\lib\net46\System.Reflection.TypeExtensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.4.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Security" />
-    <Reference Include="System.Security.AccessControl, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.AccessControl.4.4.0\lib\net461\System.Security.AccessControl.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Security.Principal.Windows, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.Principal.Windows.4.4.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -248,6 +77,8 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
     </Reference>
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
@@ -277,14 +108,6 @@
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Xml.XmlDocument, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Xml.XmlDocument.4.3.0\lib\net46\System.Xml.XmlDocument.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
@@ -325,49 +148,208 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Atividade.cs" />
-    <Compile Include="AtividadeFormaulario.cs" />
-    <Compile Include="AtividadeMaquina.cs" />
-    <Compile Include="Cargo.cs" />
+    <Compile Include="Controllers\AtividadesController.cs" />
+    <Compile Include="Controllers\AtividadesFormularioOSController.cs" />
+    <Compile Include="Controllers\AtividadesFormularioTMController.cs" />
+    <Compile Include="Controllers\CargosController.cs" />
+    <Compile Include="Controllers\FormulariosOrdemServicoController.cs" />
+    <Compile Include="Controllers\FormulariosTrocaMoldeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="FormularioOrdemServico.cs" />
-    <Compile Include="FormularioTrocaMolde.cs" />
+    <Compile Include="Controllers\MaquinasController.cs" />
+    <Compile Include="Controllers\MoldesController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Hierarquia.cs" />
-    <Compile Include="Maquina.cs" />
-    <Compile Include="Molde.cs" />
+    <Compile Include="Models\Atividade.cs" />
+    <Compile Include="Models\AtividadeFormularioOS.cs" />
+    <Compile Include="Models\AtividadeFormularioTM.cs" />
+    <Compile Include="Models\Cargo.cs" />
+    <Compile Include="Models\FormularioOrdemServico.cs" />
+    <Compile Include="Models\FormularioTrocaMolde.cs" />
+    <Compile Include="Models\Maquina.cs" />
+    <Compile Include="Models\Molde.cs" />
+    <Compile Include="Models\SampeContext.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sampeContext.cs" />
-    <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="docs\MySqlCommand.xml" />
-    <Content Include="docs\MySqlCommandBuilder.xml" />
-    <Content Include="docs\MySqlConnection.xml" />
-    <Content Include="docs\MySqlConnectionStringBuilder.xml" />
-    <Content Include="docs\MySqlDataAdapter.xml" />
-    <Content Include="docs\MySqlDataReader.xml" />
-    <Content Include="docs\MySqlException.xml" />
-    <Content Include="docs\MySqlHelper.xml" />
-    <Content Include="docs\MySqlParameter.xml" />
-    <Content Include="docs\MySqlParameterCollection.xml" />
-    <Content Include="docs\MySqlTransaction.xml" />
+    <Content Include="App_Data\SampeContext-20180322091415.mdf" />
+    <Content Include="App_Data\SampeContext-20180322091415_log.ldf">
+      <DependentUpon>SampeContext-20180322091415.mdf</DependentUpon>
+    </Content>
+    <Content Include="Content\custom_login.css" />
+    <Content Include="Content\materialize\css\custom.css" />
+    <Content Include="Content\materialize\css\custom_index.css" />
+    <Content Include="Content\materialize\css\custom_login.css" />
+    <Content Include="Content\materialize\css\materialize.css" />
+    <Content Include="Content\materialize\css\materialize.min.css" />
+    <Content Include="Content\materialize\custom.css" />
+    <Content Include="Content\materialize\font\material-design-icons\LICENSE.txt" />
+    <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.svg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Thin.woff2" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Thin.woff" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Thin.ttf" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Thin.eot" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Regular.woff2" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Regular.woff" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Regular.ttf" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Regular.eot" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Medium.woff2" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Medium.woff" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Medium.ttf" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Medium.eot" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Light.woff2" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Light.woff" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Light.ttf" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Light.eot" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Bold.woff2" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Bold.woff" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Bold.ttf" />
+    <Content Include="Content\materialize\font\roboto\Roboto-Bold.eot" />
+    <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.woff2" />
+    <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.woff" />
+    <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.ttf" />
+    <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Thin.woff2" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Thin.woff" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Thin.ttf" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Thin.eot" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Regular.woff2" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Regular.woff" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Regular.ttf" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Regular.eot" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Medium.woff2" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Medium.woff" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Medium.ttf" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Medium.eot" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Light.woff2" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Light.woff" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Light.ttf" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Light.eot" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Bold.woff2" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Bold.woff" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Bold.ttf" />
+    <Content Include="Content\materialize\fonts\roboto\Roboto-Bold.eot" />
+    <Content Include="img\ic_account_circle_black_24dp.zip" />
+    <Content Include="img\ic_account_circle_black_24dp\ios\ic_account_circle.imageset\Contents.json" />
+    <Content Include="img\ic_add_black_24dp\ios\ic_add.imageset\Contents.json" />
+    <Content Include="img\ic_build_black_24dp\ios\ic_build.imageset\Contents.json" />
+    <Content Include="img\ic_check_box_black_24dp\ios\ic_check_box.imageset\Contents.json" />
+    <Content Include="img\ic_search_black_24dp\ios\ic_search.imageset\Contents.json" />
+    <Content Include="img\ic_supervisor_account_black_24dp\ios\ic_supervisor_account.imageset\Contents.json" />
+    <Content Include="img\ic_timelapse_black_24dp\ios\ic_timelapse.imageset\Contents.json" />
+    <Content Include="img\ic_timeline_black_24dp\ios\ic_timeline.imageset\Contents.json" />
+    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="img\cadastro.png" />
+    <Content Include="img\consultar.png" />
+    <Content Include="img\expedicao.png" />
+    <Content Include="img\ic_account_circle_black_24dp\android\drawable-hdpi\ic_account_circle_black_24dp.png" />
+    <Content Include="img\ic_account_circle_black_24dp\android\drawable-mdpi\ic_account_circle_black_24dp.png" />
+    <Content Include="img\ic_account_circle_black_24dp\android\drawable-xhdpi\ic_account_circle_black_24dp.png" />
+    <Content Include="img\ic_account_circle_black_24dp\android\drawable-xxhdpi\ic_account_circle_black_24dp.png" />
+    <Content Include="img\ic_account_circle_black_24dp\android\drawable-xxxhdpi\ic_account_circle_black_24dp.png" />
+    <Content Include="img\ic_account_circle_black_24dp\ios\ic_account_circle.imageset\ic_account_circle.png" />
+    <Content Include="img\ic_account_circle_black_24dp\ios\ic_account_circle.imageset\ic_account_circle_2x.png" />
+    <Content Include="img\ic_account_circle_black_24dp\ios\ic_account_circle.imageset\ic_account_circle_3x.png" />
+    <Content Include="img\ic_account_circle_black_24dp\web\ic_account_circle_black_24dp_1x.png" />
+    <Content Include="img\ic_account_circle_black_24dp\web\ic_account_circle_black_24dp_2x.png" />
+    <Content Include="img\ic_add_black_24dp\android\drawable-hdpi\ic_add_black_24dp.png" />
+    <Content Include="img\ic_add_black_24dp\android\drawable-mdpi\ic_add_black_24dp.png" />
+    <Content Include="img\ic_add_black_24dp\android\drawable-xhdpi\ic_add_black_24dp.png" />
+    <Content Include="img\ic_add_black_24dp\android\drawable-xxhdpi\ic_add_black_24dp.png" />
+    <Content Include="img\ic_add_black_24dp\android\drawable-xxxhdpi\ic_add_black_24dp.png" />
+    <Content Include="img\ic_add_black_24dp\ios\ic_add.imageset\ic_add.png" />
+    <Content Include="img\ic_add_black_24dp\ios\ic_add.imageset\ic_add_2x.png" />
+    <Content Include="img\ic_add_black_24dp\ios\ic_add.imageset\ic_add_3x.png" />
+    <Content Include="img\ic_add_black_24dp\web\ic_add_black_24dp_1x.png" />
+    <Content Include="img\ic_add_black_24dp\web\ic_add_black_24dp_2x.png" />
+    <Content Include="img\ic_build_black_24dp\android\drawable-hdpi\ic_build_black_24dp.png" />
+    <Content Include="img\ic_build_black_24dp\android\drawable-mdpi\ic_build_black_24dp.png" />
+    <Content Include="img\ic_build_black_24dp\android\drawable-xhdpi\ic_build_black_24dp.png" />
+    <Content Include="img\ic_build_black_24dp\android\drawable-xxhdpi\ic_build_black_24dp.png" />
+    <Content Include="img\ic_build_black_24dp\android\drawable-xxxhdpi\ic_build_black_24dp.png" />
+    <Content Include="img\ic_build_black_24dp\ios\ic_build.imageset\ic_build.png" />
+    <Content Include="img\ic_build_black_24dp\ios\ic_build.imageset\ic_build_2x.png" />
+    <Content Include="img\ic_build_black_24dp\ios\ic_build.imageset\ic_build_3x.png" />
+    <Content Include="img\ic_build_black_24dp\web\ic_build_black_24dp_1x.png" />
+    <Content Include="img\ic_build_black_24dp\web\ic_build_black_24dp_2x.png" />
+    <Content Include="img\ic_check_box_black_24dp\android\drawable-hdpi\ic_check_box_black_24dp.png" />
+    <Content Include="img\ic_check_box_black_24dp\android\drawable-mdpi\ic_check_box_black_24dp.png" />
+    <Content Include="img\ic_check_box_black_24dp\android\drawable-xhdpi\ic_check_box_black_24dp.png" />
+    <Content Include="img\ic_check_box_black_24dp\android\drawable-xxhdpi\ic_check_box_black_24dp.png" />
+    <Content Include="img\ic_check_box_black_24dp\android\drawable-xxxhdpi\ic_check_box_black_24dp.png" />
+    <Content Include="img\ic_check_box_black_24dp\ios\ic_check_box.imageset\ic_check_box.png" />
+    <Content Include="img\ic_check_box_black_24dp\ios\ic_check_box.imageset\ic_check_box_2x.png" />
+    <Content Include="img\ic_check_box_black_24dp\ios\ic_check_box.imageset\ic_check_box_3x.png" />
+    <Content Include="img\ic_check_box_black_24dp\web\ic_check_box_black_24dp_1x.png" />
+    <Content Include="img\ic_check_box_black_24dp\web\ic_check_box_black_24dp_2x.png" />
+    <Content Include="img\ic_search_black_24dp\android\drawable-hdpi\ic_search_black_24dp.png" />
+    <Content Include="img\ic_search_black_24dp\android\drawable-mdpi\ic_search_black_24dp.png" />
+    <Content Include="img\ic_search_black_24dp\android\drawable-xhdpi\ic_search_black_24dp.png" />
+    <Content Include="img\ic_search_black_24dp\android\drawable-xxhdpi\ic_search_black_24dp.png" />
+    <Content Include="img\ic_search_black_24dp\android\drawable-xxxhdpi\ic_search_black_24dp.png" />
+    <Content Include="img\ic_search_black_24dp\ios\ic_search.imageset\ic_search.png" />
+    <Content Include="img\ic_search_black_24dp\ios\ic_search.imageset\ic_search_2x.png" />
+    <Content Include="img\ic_search_black_24dp\ios\ic_search.imageset\ic_search_3x.png" />
+    <Content Include="img\ic_search_black_24dp\web\ic_search_black_24dp_1x.png" />
+    <Content Include="img\ic_search_black_24dp\web\ic_search_black_24dp_2x.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\android\drawable-hdpi\ic_supervisor_account_black_24dp.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\android\drawable-mdpi\ic_supervisor_account_black_24dp.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\android\drawable-xhdpi\ic_supervisor_account_black_24dp.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\android\drawable-xxhdpi\ic_supervisor_account_black_24dp.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\android\drawable-xxxhdpi\ic_supervisor_account_black_24dp.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\ios\ic_supervisor_account.imageset\ic_supervisor_account.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\ios\ic_supervisor_account.imageset\ic_supervisor_account_2x.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\ios\ic_supervisor_account.imageset\ic_supervisor_account_3x.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\web\ic_supervisor_account_black_24dp_1x.png" />
+    <Content Include="img\ic_supervisor_account_black_24dp\web\ic_supervisor_account_black_24dp_2x.png" />
+    <Content Include="img\ic_timelapse_black_24dp\android\drawable-hdpi\ic_timelapse_black_24dp.png" />
+    <Content Include="img\ic_timelapse_black_24dp\android\drawable-mdpi\ic_timelapse_black_24dp.png" />
+    <Content Include="img\ic_timelapse_black_24dp\android\drawable-xhdpi\ic_timelapse_black_24dp.png" />
+    <Content Include="img\ic_timelapse_black_24dp\android\drawable-xxhdpi\ic_timelapse_black_24dp.png" />
+    <Content Include="img\ic_timelapse_black_24dp\android\drawable-xxxhdpi\ic_timelapse_black_24dp.png" />
+    <Content Include="img\ic_timelapse_black_24dp\ios\ic_timelapse.imageset\ic_timelapse.png" />
+    <Content Include="img\ic_timelapse_black_24dp\ios\ic_timelapse.imageset\ic_timelapse_2x.png" />
+    <Content Include="img\ic_timelapse_black_24dp\ios\ic_timelapse.imageset\ic_timelapse_3x.png" />
+    <Content Include="img\ic_timelapse_black_24dp\web\ic_timelapse_black_24dp_1x.png" />
+    <Content Include="img\ic_timelapse_black_24dp\web\ic_timelapse_black_24dp_2x.png" />
+    <Content Include="img\ic_timeline_black_24dp\android\drawable-hdpi\ic_timeline_black_24dp.png" />
+    <Content Include="img\ic_timeline_black_24dp\android\drawable-mdpi\ic_timeline_black_24dp.png" />
+    <Content Include="img\ic_timeline_black_24dp\android\drawable-xhdpi\ic_timeline_black_24dp.png" />
+    <Content Include="img\ic_timeline_black_24dp\android\drawable-xxhdpi\ic_timeline_black_24dp.png" />
+    <Content Include="img\ic_timeline_black_24dp\android\drawable-xxxhdpi\ic_timeline_black_24dp.png" />
+    <Content Include="img\ic_timeline_black_24dp\ios\ic_timeline.imageset\ic_timeline.png" />
+    <Content Include="img\ic_timeline_black_24dp\ios\ic_timeline.imageset\ic_timeline_2x.png" />
+    <Content Include="img\ic_timeline_black_24dp\ios\ic_timeline.imageset\ic_timeline_3x.png" />
+    <Content Include="img\ic_timeline_black_24dp\web\ic_timeline_black_24dp_1x.png" />
+    <Content Include="img\ic_timeline_black_24dp\web\ic_timeline_black_24dp_2x.png" />
+    <Content Include="img\logo.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\manutencao.png" />
+    <Content Include="img\marcanti.gif" />
+    <Content Include="img\perfis.png" />
+    <Content Include="img\pessoa.png" />
+    <Content Include="img\producao.png" />
+    <Content Include="img\relatorios.png" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\materialize\materialize.js" />
+    <Content Include="Scripts\materialize\materialize.min.js" />
+    <Content Include="Scripts\materialize\programa.js" />
+    <Content Include="Scripts\materialize\prototipo.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -385,14 +367,53 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Atividades\Create.cshtml" />
+    <Content Include="Views\Atividades\Delete.cshtml" />
+    <Content Include="Views\Atividades\Details.cshtml" />
+    <Content Include="Views\Atividades\Edit.cshtml" />
+    <Content Include="Views\Atividades\Index.cshtml" />
+    <Content Include="Views\AtividadesFormularioTM\Create.cshtml" />
+    <Content Include="Views\AtividadesFormularioTM\Delete.cshtml" />
+    <Content Include="Views\AtividadesFormularioTM\Details.cshtml" />
+    <Content Include="Views\AtividadesFormularioTM\Edit.cshtml" />
+    <Content Include="Views\AtividadesFormularioTM\Index.cshtml" />
+    <Content Include="Views\AtividadesFormularioOS\Create.cshtml" />
+    <Content Include="Views\AtividadesFormularioOS\Delete.cshtml" />
+    <Content Include="Views\AtividadesFormularioOS\Details.cshtml" />
+    <Content Include="Views\AtividadesFormularioOS\Edit.cshtml" />
+    <Content Include="Views\AtividadesFormularioOS\Index.cshtml" />
+    <Content Include="Views\Cargos\Create.cshtml" />
+    <Content Include="Views\Cargos\Delete.cshtml" />
+    <Content Include="Views\Cargos\Edit.cshtml" />
+    <Content Include="Views\Cargos\Index.cshtml" />
+    <Content Include="Views\Maquinas\Create.cshtml" />
+    <Content Include="Views\Maquinas\Delete.cshtml" />
+    <Content Include="Views\Maquinas\Details.cshtml" />
+    <Content Include="Views\Maquinas\Edit.cshtml" />
+    <Content Include="Views\Maquinas\Index.cshtml" />
+    <Content Include="Views\Moldes\Create.cshtml" />
+    <Content Include="Views\Moldes\Delete.cshtml" />
+    <Content Include="Views\Moldes\Details.cshtml" />
+    <Content Include="Views\Moldes\Edit.cshtml" />
+    <Content Include="Views\Moldes\Index.cshtml" />
+    <Content Include="Views\FormulariosTrocaMolde\Create.cshtml" />
+    <Content Include="Views\FormulariosTrocaMolde\Delete.cshtml" />
+    <Content Include="Views\FormulariosTrocaMolde\Details.cshtml" />
+    <Content Include="Views\FormulariosTrocaMolde\Edit.cshtml" />
+    <Content Include="Views\FormulariosTrocaMolde\Index.cshtml" />
+    <Content Include="Views\FormulariosOrdemServico\Create.cshtml" />
+    <Content Include="Views\FormulariosOrdemServico\Delete.cshtml" />
+    <Content Include="Views\FormulariosOrdemServico\Details.cshtml" />
+    <Content Include="Views\FormulariosOrdemServico\Edit.cshtml" />
+    <Content Include="Views\FormulariosOrdemServico\Index.cshtml" />
+    <Content Include="Views\Usuarios\Create.cshtml" />
+    <Content Include="Views\Usuarios\Delete.cshtml" />
+    <Content Include="Views\Usuarios\Edit.cshtml" />
+    <Content Include="Views\Usuarios\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -410,9 +431,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3281</DevelopmentServerPort>
+          <DevelopmentServerPort>43600</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:3281/</IISUrl>
+          <IISUrl>http://localhost:43600/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

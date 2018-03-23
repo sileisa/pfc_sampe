@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Sampe.Models.AtividadeFormularioTM>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FormularioTrocaMolde.DtRetirada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AtividadeTMId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StatusAtividadeTM)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FormularioTrocaMolde.DtRetirada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AtividadeTMId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StatusAtividadeTM)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AtividadeFormularioTMId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AtividadeFormularioTMId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AtividadeFormularioTMId })
+        </td>
+    </tr>
+}
+
+</table>

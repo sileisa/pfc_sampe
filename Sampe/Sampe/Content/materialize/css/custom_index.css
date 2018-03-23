@@ -1,0 +1,56 @@
+﻿
+html,
+body {
+    background-color: #EE8600;
+   
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+#icon {
+    align-content: center;
+}
+
+#cardTitle {
+    color: black;
+}
+
+#logo {
+    width: 280px;
+}
+
+#centro {
+    background-color: white;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EE8600;   
+}
+
+.btn {
+    background-color: #EE8600;
+}
+
+.card {
+    margin: auto;
+    width: 220px;
+    height: 220px;
+}
+
+.card-title {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-image {
+    width: 50px;
+}

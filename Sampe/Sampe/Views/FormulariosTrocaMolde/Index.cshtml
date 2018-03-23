@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Sampe.FormularioTrocaMolde>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Maquina.NomeMaquina)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Molde.NomeMolde)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Usuario.Hierarquia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtRetirada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtColocar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ColocarInicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ColocarFim)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RetirarInicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RetirarFim)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Executante)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Maquina.NomeMaquina)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Molde.NomeMolde)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Usuario.Hierarquia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DtRetirada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DtColocar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ColocarInicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ColocarFim)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RetirarInicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RetirarFim)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Executante)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.FormularioTrocaMoldeId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FormularioTrocaMoldeId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FormularioTrocaMoldeId })
+        </td>
+    </tr>
+}
+
+</table>

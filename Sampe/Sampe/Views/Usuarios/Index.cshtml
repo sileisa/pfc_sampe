@@ -1,0 +1,66 @@
+﻿
+@model IEnumerable<Sampe.Usuario>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="container ">
+    <div class="col s12 m8 l9">
+        <br />
+        <h6>Usuários</h6>
+        <div class="divider"></div>
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Sobrenome
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Hierarquia)
+                    </th>
+                    <th>
+                        Cargo
+                    </th>
+
+
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NomeUsuario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SobrenomeUsuario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Hierarquia)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cargo.NomeCargo)
+                    </td>
+
+                    <td>
+
+                        @Html.ActionLink("Editar", "Edit", new { id = item.UsuarioId }) |
+                        <!--   @Html.ActionLink("Details", "Details", new { id = item.UsuarioId }) |-->
+                        @Html.ActionLink("Deletar", "Delete", new { id = item.UsuarioId })
+                    </td>
+                </tr>
+                }
+
+            </table>
+
+        </div>
+        <div class="row center-align">
+            <a class="btn " href="/Usuarios/Create">Novo Usuário</a>
+        </div>
+    </div>
+</div>
+
+
