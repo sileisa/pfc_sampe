@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sampe.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,6 +9,7 @@ namespace Sampe
     public class Usuario
     {
         [Key]
+        [Column(Order = 1)]
         public int UsuarioId { get; set; }
 
         [Column(Order = 2)]
@@ -18,11 +20,24 @@ namespace Sampe
         [Required(ErrorMessage = "Preencha este campo")]
         public string SobrenomeUsuario { get; set; }
 
+        [Required(ErrorMessage = "Preencha este campo")]
         [Column(Order = 4)]
-        public int Login { get; set; }
-                
+        private string login;
+        public String Login
+        {
+            get
+            {
+                return login;
+            }
+            set
+            {
+                login = NomeUsuario;
+            }
+        }
+
+        [Required(ErrorMessage = "Preencha este campo")]
         [Column(Order = 5)]
-        public int Senha { get; set; } = 123456;
+        public String Senha { get; set; } = "123456";
 
         [Column(Order = 6)]
         public String Hierarquia { get; set; }
@@ -31,5 +46,6 @@ namespace Sampe
         [ForeignKey("Cargo")]
         public int CargoId { get; set; }
         public Cargo Cargo { get; set; }
+
     }
 }

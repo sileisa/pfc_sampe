@@ -221,3 +221,10 @@ C:\Users\Sileisa Alexandrino\source\repos\pfc\Sampe\Sampe\bin\pt-br\System.Web.W
 C:\Users\Sileisa Alexandrino\source\repos\pfc\Sampe\Sampe\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Sileisa Alexandrino\source\repos\pfc\Sampe\Sampe\bin\pt-br\System.Web.WebPages.Razor.resources.dll
 C:\Users\Sileisa Alexandrino\source\repos\pfc\Sampe\Sampe\obj\Debug\Sampe.csproj.CoreCompileInputs.cache
+C:\Users\Sileisa Alexandrino\source\repos\pfc\sampe\Sampe\obj\Debug\Sampe.Migrations.InitialCreate.resources
+C:\Users\Sileisa Alexandrino\source\repos\pfc\sampe\Sampe\obj\Debug\Sampe.csproj.GenerateResource.Cache
+C:\Users\Sileisa Alexandrino\source\repos\pfc\sampe\Sampe\obj\Debug\Sampe.Migrations.Sampe230320182212.resources
+C:\Users\Sileisa Alexandrino\source\repos\pfc\sampe\Sampe\obj\Debug\Sampe.Migrations.Sampe240320180957.resources
+C:\Users\Sileisa Alexandrino\source\repos\pfc\sampe\Sampe\obj\Debug\Sampe.Migrations.Sampe240320181034.resources
+C:\Users\Sileisa Alexandrino\source\repos\pfc\sampe\Sampe\obj\Debug\Sampe.Migrations.Sampe240320181050.resources
+C:\Users\Sileisa Alexandrino\source\repos\pfc\sampe\Sampe\obj\Debug\Sampe.Migrations.Sampe240320181052.resources

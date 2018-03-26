@@ -1,39 +1,50 @@
 ﻿@model IEnumerable<Sampe.Molde>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Molde";
 }
 
-<h2>Index</h2>
+<div class="container ">
+    <div class="col s12 m8 l9">
+        <br />
+        <h2>Moldes</h2>
+        <div class="divider"></div>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.NomeMolde)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Cavidade)
-        </th>
-        <th></th>
-    </tr>
+        <table class="table">
+            <tr>
+                <th>
+                    Molde
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cavidade)
+                </th>
+                <th></th>
+            </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.NomeMolde)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Cavidade)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MoldeId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MoldeId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MoldeId })
-        </td>
-    </tr>
-}
+            @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeMolde)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cavidade)
+                </td>
+                <td>
 
-</table>
+
+
+                    @Html.ActionLink("Editar", "Edit", new { id = item.MoldeId }) |
+                    <!--   @Html.ActionLink("Details", "Details", new { id = item.MoldeId }) |-->
+                    @Html.ActionLink("Deletar", "Delete", new { id = item.MoldeId })
+                </td>
+            </tr>
+    }
+
+        </table>
+    </div>
+    <div class="row center-align">
+        <a class="btn " href="/Moldes/Create">Novo Molde</a>
+    </div>
+</div>
+

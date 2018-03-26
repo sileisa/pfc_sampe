@@ -1,0 +1,117 @@
+﻿@model Sampe.Usuario
+
+@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    @{
+        ViewBag.Title = "Login";
+    }
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--css-->
+    <link href="~/Content/materialize/css/materialize.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="~/Scripts/materialize/js/materialize.min.js"></script>
+    <script src="~/Scripts/materialize/js/programa.js"></script>
+
+    <!-- css de login-->
+
+    <link href="~/Content/custom_login.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="~/Content/materialize/css/custom_login.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+    <!-- Fonte-->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Martel+Sans|Quicksand:700|Tenor+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--logo na guia -->
+    <link rel="shortcut icon" href="~/img/logo.png">
+
+
+</head>
+<body id="fundo">
+
+    @using (Html.BeginForm())
+    {
+        <!--@Html.AntiForgeryToken()-->
+
+
+        <div id="login-page" class="row">
+            <div class="col s12 l12 z-depth-4 card-panel">
+                <form class="login-form">
+
+
+                    <div class="row">
+                        <div class="input-field col s12 center">
+                            <img src="~/img/marcanti.gif" id="logo" alt="" class="responsive-img valign profile-image-login">
+
+                        </div>
+                    </div>
+
+                    <div class="row margin">
+
+                        <div class="form-group">
+                            <!--  <i class="material-icons prefix ">person</i>-->
+                            @Html.LabelFor(model => model.Login, "Login", htmlAttributes: new { @class = "" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Login, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Login, "", new { @class = "text-danger" })
+                            </div>
+                            <!-- <input id="login" title="Preencha o campo nome" type="text" class="validate" required name=login>
+                            <label for="login">Login</label>-->
+
+                        </div>
+                    </div>
+                    <div class="row margin">
+
+                        <div class="form-group">
+                            <!-- <i class="material-icons prefix ">lock</i>-->
+                            @Html.LabelFor(model => model.Senha, "Senha", htmlAttributes: new { @class = "" })
+                            <div class="col-md-10">
+                                @Html.PasswordFor(model => model.Senha, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Senha, "", new { @class = "text-danger" })
+                            </div>
+                            <!-- <input id="senha" title="Preencha o campo senha" type="text" class="validate" required name=senha>
+                            <label for="senha">Senha</label>-->
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <!--href="Usuarios/Login/?login=login&senha=senha"-->
+                            <a href="/Usuarios/PagInicial" class="btn waves-effect waves-light center col s12">Entrar</a>
+                            <!-- <input class="btn waves-effect waves-light center col s12" type=submit value="Entrar" />-->
+
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    }
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/materialize")
+
+
+    <!-- scipts -->
+                            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+                            <script type="text/javascript" src="~/js/materialize.min.js"></script>
+                            <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+                            <script src="~/Scripts/programa.js"></script>
+
+
+
+</body>
+</html>

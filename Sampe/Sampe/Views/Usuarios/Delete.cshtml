@@ -19,18 +19,9 @@
                 </dt>
 
                 <dd>
-                    @Html.DisplayFor(model => model.NomeUsuario)
+                    @Html.DisplayFor(model => model.NomeUsuario) @Html.DisplayFor(model => model.SobrenomeUsuario)
                 </dd>
 
-                <dt>
-                    Sobrenome
-                </dt>
-
-                <dd>
-                    @Html.DisplayFor(model => model.SobrenomeUsuario)
-                </dd>
-
-              
                 <dt>
                     @Html.DisplayNameFor(model => model.Hierarquia)
                 </dt>
@@ -44,20 +35,20 @@
                 </dt>
 
                 <dd>
-                    @Html.DisplayFor(model => model.Cargo.NomeCargo)
+                    @Html.DisplayFor(model => model.Cargo)
                 </dd>
 
             </dl>
 
             @using (Html.BeginForm())
-        {
-            @Html.AntiForgeryToken()
+            {
+                @Html.AntiForgeryToken()
 
-            <div class="form-actions no-color">
-                <input type="submit" value="Deletar" class="btn btn-default" />
-                <a class="btn " href="/Usuarios/Index">Voltar</a>
-            </div>
-    }
+                <div class="form-actions no-color">
+                    <input type="submit" value="Deletar" class="btn btn-default" />
+                    <a class="btn " href="/Usuarios/Index">Voltar</a>
+                </div>
+            }
         </div>
 
     </div>

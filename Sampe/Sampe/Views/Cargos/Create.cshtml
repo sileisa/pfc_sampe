@@ -1,7 +1,7 @@
 ﻿@model Sampe.Cargo
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Novo Cargo";
 }
 
 
@@ -15,7 +15,7 @@
         <div class="col s12 m8 l9">
             <br />
             <h2>Novo Cargo</h2>
-            <h6>Cargo</h6>
+           
             <hr />
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             <div class="form-group">
@@ -37,7 +37,7 @@
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
                     <input type="submit" value="Cadastrar" class="btn btn-default" />
-                    <a class="btn " href="/Usuarios/Index">Voltar</a>
+                    <a class="btn " href="/Cargos/Index">Voltar</a>
                 </div>
             </div>
         </div>

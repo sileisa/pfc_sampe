@@ -22,8 +22,6 @@
 </head>
 <body>
 
-    }
-
 
     <!--<hr />-->
     <!-- Menu lateral -->
@@ -32,20 +30,19 @@
             <li>
                 <div class="user-view">
                     <!--<a href="meu_perfil.html"><img class="circle responsive-img center" src="~/img/pessoa.png"></a>-->
-                    <a href="meu_perfil.html"><span class="orange-text name">Marcello Cavalcanti</span></a>
-                    <a href="meu_perfil.html"><span class="orange-text email">Administrador</span></a>
+                    <a href="#!"><span class="orange-text name">Marcello Cavalcanti</span></a>
+                    <a href="#!"><span class="orange-text email">Administrador</span></a>
                 </div>
             </li>
 
             <li>
-                <a class='dropdown-button ' href='#' data-activates='dropdown1'><i class="material-icons">build</i>Manutenção</a>
-                <!-- Dropdown Structure -->
+                 <a class='dropdown-button ' href='#' data-activates='dropdown1'><i class="material-icons">build</i>Manutenção</a>
+
                 <ul id='dropdown1' class='dropdown-content'>
-                    <li><a href="troca_molde.html">Troca de Molde</a></li>
-                    <li><a href="ordem_servico.html">Ordem de Serviço</a></li>
-                    <li><a href="editar_moldes.html">Editar Moldes</a></li>
-                    <li><a href="#!">Cadastrar Máquinas</a></li>
+                    <li><a href="/FormulariosTrocaMolde/Create">Troca de Molde</a></li>
+                    <li><a href="/FormulariosOrdemServico/Create">Ordem de Serviço</a></li>                    
                 </ul>
+               
             </li>
 
             <li><div class="divider"></div></li>
@@ -65,7 +62,17 @@
             <li><div class="divider"></div></li>
             <li><a href="#!"><i class="material-icons">timeline</i>Relatório</a></li>
             <li><div class="divider"></div></li>
-            <li><a href="editar_perfis.html"><i class="material-icons">supervisor_account</i>Pessoas</a></li>
+            <li>
+                <a class='dropdown-button ' href='#' data-activates='dropdown3'><i class="material-icons">build</i>Cadastrar</a>
+
+                <ul id='dropdown3' class='dropdown-content'>
+                    <li><a href="/Moldes">Moldes</a></li>
+                    <li><a href="/Maquinas">Máquinas</a></li>
+                    <li><a href="/Atividades"> Atividades </a></li>                   
+                </ul>
+            </li>
+            <li><a href="/Usuarios/Index"><i class="material-icons">supervisor_account</i>Usuários</a></li>
+
 
         </ul>
         <!--  <div class="fixed-action-btn horizontal">
@@ -79,7 +86,7 @@
 
 
     </div>
-    </div>
+
 
     <!-- rodapé
     <div class="row">

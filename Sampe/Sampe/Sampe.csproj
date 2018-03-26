@@ -161,6 +161,31 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803231826249_InitialCreate.cs" />
+    <Compile Include="Migrations\201803231826249_InitialCreate.Designer.cs">
+      <DependentUpon>201803231826249_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803240112543_Sampe230320182212.cs" />
+    <Compile Include="Migrations\201803240112543_Sampe230320182212.Designer.cs">
+      <DependentUpon>201803240112543_Sampe230320182212.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803241258394_Sampe240320180957.cs" />
+    <Compile Include="Migrations\201803241258394_Sampe240320180957.Designer.cs">
+      <DependentUpon>201803241258394_Sampe240320180957.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803241334555_Sampe240320181034.cs" />
+    <Compile Include="Migrations\201803241334555_Sampe240320181034.Designer.cs">
+      <DependentUpon>201803241334555_Sampe240320181034.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803241350039_Sampe240320181050.cs" />
+    <Compile Include="Migrations\201803241350039_Sampe240320181050.Designer.cs">
+      <DependentUpon>201803241350039_Sampe240320181050.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803241352515_Sampe240320181052.cs" />
+    <Compile Include="Migrations\201803241352515_Sampe240320181052.Designer.cs">
+      <DependentUpon>201803241352515_Sampe240320181052.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Atividade.cs" />
     <Compile Include="Models\AtividadeFormularioOS.cs" />
     <Compile Include="Models\AtividadeFormularioTM.cs" />
@@ -364,9 +389,9 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Usuarios\Login.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Usuarios\PagInicial.cshtml" />
     <Content Include="Views\Atividades\Create.cshtml" />
     <Content Include="Views\Atividades\Delete.cshtml" />
     <Content Include="Views\Atividades\Details.cshtml" />
@@ -388,12 +413,10 @@
     <Content Include="Views\Cargos\Index.cshtml" />
     <Content Include="Views\Maquinas\Create.cshtml" />
     <Content Include="Views\Maquinas\Delete.cshtml" />
-    <Content Include="Views\Maquinas\Details.cshtml" />
     <Content Include="Views\Maquinas\Edit.cshtml" />
     <Content Include="Views\Maquinas\Index.cshtml" />
     <Content Include="Views\Moldes\Create.cshtml" />
     <Content Include="Views\Moldes\Delete.cshtml" />
-    <Content Include="Views\Moldes\Details.cshtml" />
     <Content Include="Views\Moldes\Edit.cshtml" />
     <Content Include="Views\Moldes\Index.cshtml" />
     <Content Include="Views\FormulariosTrocaMolde\Create.cshtml" />
@@ -406,12 +429,32 @@
     <Content Include="Views\FormulariosOrdemServico\Details.cshtml" />
     <Content Include="Views\FormulariosOrdemServico\Edit.cshtml" />
     <Content Include="Views\FormulariosOrdemServico\Index.cshtml" />
-    <Content Include="Views\Usuarios\Create.cshtml" />
     <Content Include="Views\Usuarios\Delete.cshtml" />
     <Content Include="Views\Usuarios\Edit.cshtml" />
     <Content Include="Views\Usuarios\Index.cshtml" />
+    <Content Include="Views\Usuarios\Create.cshtml" />
+    <Content Include="Views\Usuarios\Teste.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201803231826249_InitialCreate.resx">
+      <DependentUpon>201803231826249_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803240112543_Sampe230320182212.resx">
+      <DependentUpon>201803240112543_Sampe230320182212.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803241258394_Sampe240320180957.resx">
+      <DependentUpon>201803241258394_Sampe240320180957.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803241334555_Sampe240320181034.resx">
+      <DependentUpon>201803241334555_Sampe240320181034.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803241350039_Sampe240320181050.resx">
+      <DependentUpon>201803241350039_Sampe240320181050.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803241352515_Sampe240320181052.resx">
+      <DependentUpon>201803241352515_Sampe240320181052.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
